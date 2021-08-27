@@ -1,0 +1,79 @@
+version: "2.0"
+
+stories:
+
+- story: depression positive
+  steps:
+    - intent: depression
+    - action: utter_depression
+    - action: utter_depression_ask
+    - intent: depression_posi
+    - action: utter_depression_posi
+
+- story: depression negative
+  steps:
+    - intent: depression
+    - action: utter_depression
+    - action: utter_depression_ask
+    - intent: depression_nega
+    - action: utter_depression_nega
+
+- story: depression gloomy
+  steps:
+    - intent: depression_gloomy
+    - action: utter_depression_gloomy
+    - action: utter_cheer_up
+
+- story: depression dazed positive
+  steps:
+    - intent: depression_dazed
+    - action: utter_depression_dazed
+    - action: utter_depression_ask
+    - intent: depression_posi
+    - action: utter_depression_posi
+
+- story: depression dazed negative
+  steps:
+    - intent: depression_dazed
+    - action: utter_depression_dazed
+    - action: utter_depression_ask
+    - intent: depression_nega
+    - action: utter_depression_nega
+
+- story: depression lethargy
+  steps:
+    - intent: depression_lethargy
+    - action: utter_depression_lethargy
+
+- story: depression desire
+  steps:
+    - intent: depression_desire
+    - action: utter_depression_desire
+
+- story: depression insomnia
+  steps:
+    - intent: depression_insomnia
+    - action: utter_depression_insomnia
+
+- story: depression interest
+  steps:
+    - intent: depression_interest
+    - action: utter_depression_interest
+
+- story: depression appetite
+  steps:
+    - intent: depression_appetite
+    - action: utter_depression_appetite
+
+- story: depression confidence
+  steps:
+    - intent: depression_confidence
+    - action: utter_depression_confidence
+
+- story: depression loser
+  steps:
+    - intent: depression_loser
+    - action: utter_depression_loser
+
+
+
