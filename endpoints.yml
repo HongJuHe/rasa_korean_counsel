@@ -22,9 +22,6 @@ tracker_store:
     table_name: user_db2
     region: ap-northeast-2
 
-    #aws_access_key_id: AKIA5TVACPX3K52RDPNN
-    #aws_secret_access_key: i7cQXc2S0RnkG16sdpvsFXYUrS15aqwEkW2ol7dj
-
 #tracker_store:
 #    type: mongod
 #    url: <url to your mongo instance, e.g. mongodb://localhost:27017>
