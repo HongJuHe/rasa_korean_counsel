@@ -75,5 +75,382 @@ stories:
     - intent: depression_loser
     - action: utter_depression_loser
 
+- story: depression concentration
+  steps:
+    - intent: depression_concentration
+    - action: utter_depression_concentration
 
+- story: sadness
+  steps:
+    - intent: sadness
+    - action: utter_sadness
+
+- story: sadness upset
+  steps:
+    - intent: sadness_upset
+    - action: utter_sadness_upset
+
+- story: sadness tear
+  steps:
+    - intent: sadness_tear
+    - action: utter_sadness_tear
+
+- story: sadness cry
+  steps:
+    - intent: sadness_cry
+    - action: utter_sadness_cry
+
+- story: sadness guilty
+  steps:
+    - intent: sadness_guilty
+    - action: utter_sadness_guilty
+
+- story: sadness miss
+  steps:
+    - intent: sadness_miss
+    - action: utter_sadness_miss
+
+- story: sadness remorse
+  steps:
+    - intent: sadness_remorse
+    - action: utter_sadness_remorse
+
+- story: sadness sad
+  steps:
+    - intent: sadness_sad
+    - action: utter_sadness_sad
+
+- story: sadness miserable
+  steps:
+    - intent: sadness_miserable
+    - action: utter_sadness_miserable
+
+- story: sadness vanity
+  steps:
+    - intent: sadness_vanity
+    - action: utter_sadness_vanity
+
+- story: sadness despair
+  steps:
+    - intent: sadness_despair
+    - action: utter_sadness_despair
+
+- story: sadness unfair
+  steps:
+    - intent: sadness_unfair
+    - action: utter_sadness_unfair
+
+- story: sadness regret
+  steps:
+    - intent: sadness_regret
+    - action: utter_sadness_regret
+
+- story: sadness disappointment
+  steps:
+    - intent: sadness_disappointment
+    - action: utter_sadness_disappointment
+
+- story: lonely
+  steps:
+    - intent: lonely
+    - action: utter_lonely
+
+- story: lonely meaningless
+  steps:
+    - intent: lonely_meaningless
+    - action: utter_lonely_meaningless
+
+- story: lonely suitability
+  steps:
+    - intent: lonely_suitability
+    - action: utter_lonely_suitability
+
+- story: lonely hard
+  steps:
+    - intent: lonely_hard
+    - action: utter_lonely_hard
+
+- story: angry
+  steps:
+    - intent: angry
+    - action: utter_angry
+
+- story: angry resentment
+  steps:
+    - intent: angry_resentment
+    - action: utter_angry_resentment
+
+- story: angry dissatisfaction
+  steps:
+    - intent: angry_dissatisfaction
+    - action: utter_angry_dissatisfaction
+
+- story: angry hate me
+  steps:
+    - intent: angry_hate
+    - action: utter_angry_hate
+    - intent: me
+    - action: utter_angry_me
+
+- story: angry hate other
+  steps:
+    - intent: angry_hate
+    - action: utter_angry_hate
+    - intent: other
+    - action: utter_angry_other
+
+- story: angry anger
+  steps:
+    - intent: angry_anger
+    - action: utter_angry_anger
+
+- story: angry hatred
+  steps:
+    - intent: angry_hatred
+    - action: utter_angry_hatred
+
+- story: emotionaldysregulation paralysis
+  steps:
+    - intent: emotionaldysregulation_paralysis
+    - action: utter_emotionaldysregulation_paralysis
+
+- story: emotionaldysregulation arbitrariness
+  steps:
+    - intent: emotionaldysregulation_arbitrariness
+    - action: utter_emotionaldysregulation_arbitrariness
+
+- story: emotionaldysregulation suppression me
+  steps:
+    - intent: emotionaldysregulation_suppression
+    - action: utter_emotionaldysregulation_suppression
+    - intent: me
+    - action: utter_emotionaldysregulation_suppression_me
+
+- story: emotionaldysregulation suppression other
+  steps:
+    - intent: emotionaldysregulation_suppression
+    - action: utter_emotionaldysregulation_suppression
+    - intent: other
+    - action: utter_emotionaldysregulation_suppression_other
+
+- story: emotionaldysregulation conflict
+  steps:
+    - intent: emotionaldysregulation_conflict
+    - action: utter_emotionaldysregulation_conflict
+
+- story: lose vacuity
+  steps:
+    - intent: lose_vacuity
+    - action: utter_lose_vacuity
+
+- story: lose novalue
+  steps:
+    - intent: lose_novalue
+    - action: utter_lose_novalue
+
+- story: lose collapse
+  steps:
+    - intent: lose_collapse
+    - action: utter_lose_collapse
+
+- story: lose lose positive
+  steps:
+    - intent: lose_lose
+    - action: utter_lose_lose
+    - action: utter_lose_lose_ask
+    - intent: depression_posi
+    - action: utter_lose_lose_posi
+
+- story: lose lose negative
+  steps:
+    - intent: lose_lose
+    - action: utter_lose_lose
+    - action: utter_lose_lose_ask
+    - intent: depression_nega
+    - action: utter_lose_lose_nega
+
+- story: lose loneliness
+  steps:
+    - intent: lose_loneliness
+    - action: utter_lose_loneliness
+
+- story: nervous restlessness
+  steps:
+    - intent: nervous_restlessness
+    - action: utter_nervous_restlessness
+
+- story: nervous nervous
+  steps:
+    - intent: nervous_nervous
+    - action: utter_nervous_nervous
+
+- story: nervous notstay
+  steps:
+    - intent: nervous_notstay
+    - action: utter_nervous_notstay
+
+- story: nervous sharp
+  steps:
+    - intent: nervous_sharp
+    - action: utter_nervous_sharp
+
+- story: nervous petulance
+  steps:
+    - intent: nervous_petulance
+    - action: utter_nervous_petulance
+
+- story: nervous confuse
+  steps:
+    - intent: nervous_confuse
+    - action: utter_nervous_confuse
+
+- story: nervous tremble
+  steps:
+    - intent: nervous_tremble
+    - action: utter_nervous_tremble
+
+- story: nervous frustrated
+  steps:
+    - intent: nervous_frustrated
+    - action: utter_nervous_frustrated
+
+- story: nervous breath
+  steps:
+    - intent: nervous_breath
+    - action: utter_nervous_breath
+
+- story: nervous updown
+  steps:
+    - intent: nervous_updown
+    - action: utter_nervous_updown
+
+- story: nervous worry
+  steps:
+    - intent: nervous_worry
+    - action: utter_nervous_worry
+
+- story: fatigue slump
+  steps:
+    - intent: fatigue_slump
+    - action: utter_fatigue_slump
+
+- story: fatigue sleepy
+  steps:
+    - intent: fatigue_sleepy
+    - action: utter_fatigue_sleepy
+
+- story: fatigue oversleep
+  steps:
+    - intent: fatigue_oversleep
+    - action: utter_fatigue_oversleep
+
+- story: confidence indecisive
+  steps:
+    - intent: confidence_indecisive
+    - action: utter_confidence_indecisive
+
+- story: confidence atrophy
+  steps:
+    - intent: confidence_atrophy
+    - action: utter_confidence_atrophy
+
+- story: confidence timid
+  steps:
+    - intent: confidence_timid
+    - action: utter_confidence_timid
+
+- story: confidence decide
+  steps:
+    - intent: confidence_decide
+    - action: utter_confidence_decide
+
+- story: lowesteem insignificant
+  steps:
+    - intent: lowesteem_insignificant
+    - action: utter_lowesteem_insignificant
+
+- story: lowesteem ugly
+  steps:
+    - intent: lowesteem_ugly
+    - action: utter_lowesteem_ugly
+
+- story: lowesteem derision
+  steps:
+    - intent: lowesteem_derision
+    - action: utter_lowesteem_derision
+
+- story: lowesteem look
+  steps:
+    - intent: lowesteem_look
+    - action: utter_lowesteem_look
+
+- story: lowesteem frustration
+  steps:
+    - intent: lowesteem_frustration
+    - action: utter_lowesteem_frustration
+
+- story: lowesteem watch
+  steps:
+    - intent: lowesteem_watch
+    - action: utter_lowesteem_watch
+
+- story: lowesteem finger
+  steps:
+    - intent: lowesteem_finger
+    - action: utter_lowesteem_finger
+
+- story: lowesteem stare
+  steps:
+    - intent: lowesteem_stare
+    - action: utter_lowesteem_stare
+
+- story: lowesteem damage
+  steps:
+    - intent: lowesteem_damage
+    - action: utter_lowesteem_damage
+
+- story: lowesteem heartbreak
+  steps:
+    - intent: lowesteem_heartbreak
+    - action: utter_lowesteem_heartbreak
+
+- story: despair nohope
+  steps:
+    - intent: despair_nohope
+    - action: utter_despair_nohope
+
+- story: despair giveup
+  steps:
+    - intent: despair_giveup
+    - action: utter_despair_giveup
+
+- story: despair suffer
+  steps:
+    - intent: despair_suffer
+    - action: utter_despair_suffer
+
+- story: despair disapoint
+  steps:
+    - intent: despair_disapoint
+    - action: utter_despair_disapoint
+
+- story: despair insult
+  steps:
+    - intent: despair_insult
+    - action: utter_despair_insult
+
+- story: despair weak
+  steps:
+    - intent: despair_weak
+    - action: utter_despair_weak
+
+- story: despair imminence
+  steps:
+    - intent: despair_imminence
+    - action: utter_despair_imminence
+
+- story: suicide
+  steps:
+    - intent: suicide
+    - action: utter_suicide
 
